@@ -116,6 +116,6 @@ venv.bak/
 localdata/
 
 # setuptools_scm
-arango_utils/version.py
+adb_cloud/version.py
 
 .vscode
