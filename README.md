@@ -23,7 +23,7 @@ pip install git+https://github.com/arangodb/adb_cloud.git
 pip install adb_cloud
 ```
 
-## Current state
+## Quickstart
 
 ```py
 from adb_cloud import get_oasis_credentials
