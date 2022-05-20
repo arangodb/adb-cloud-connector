@@ -30,10 +30,7 @@ from adb_cloud import get_oasis_credentials
 
 con = get_oasis_credentials()
 
-print(con["url"])
-print("Username: " + con["username"])
-print("Password: " + con["password"])
-print("Database: " + con["dbName"])
+print(con)
 ```
 
 ##  Development & Testing
