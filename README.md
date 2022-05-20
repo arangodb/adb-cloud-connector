@@ -26,7 +26,6 @@ pip install adb_cloud
 ## Current state
 
 ```py
-import json
 from adb_cloud import get_oasis_credentials
 
 con = get_oasis_credentials()
