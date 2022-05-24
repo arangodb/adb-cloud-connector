@@ -1,5 +1,5 @@
 # credentials 
-arango_utils/data/creds.json
+adb_cloud_connector/data/creds.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -116,6 +116,6 @@ venv.bak/
 localdata/
 
 # setuptools_scm
-adb_cloud/version.py
+adb_cloud_connector/version.py
 
 .vscode

@@ -4,15 +4,15 @@ with open("./README.md") as fp:
     long_description = fp.read()
 
 setup(
-    name="adb_cloud",
+    name="adb_cloud_connector",
     author="Anthony Mahanna",
     author_email="anthony.mahanna@arangodb.com",
-    description="Access to Temporary ArangoDB Cloud Provisioning.",
+    description="Access to temporary ArangoDB Cloud instance provisioning.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/arangodb/adb_cloud",
-    keywords=["arangodb", "cloud", "oasis"],
-    packages=["adb_cloud"],
+    url="https://github.com/arangodb/adb_cloud_connector",
+    keywords=["arangodb", "cloud", "connector"],
+    packages=["adb_cloud_connector"],
     include_package_data=True,
     use_scm_version=True,
     python_requires=">=3.6",

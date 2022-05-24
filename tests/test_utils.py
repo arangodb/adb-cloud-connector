@@ -1,8 +1,8 @@
-from adb_cloud import get_oasis_credentials
+from adb_cloud_connector import get_temp_credentials
 
 
-def test_get_oasis_credentials() -> None:
-    new_creds = get_oasis_credentials()
+def test_get_temp_credentials() -> None:
+    new_creds = get_temp_credentials()
     assert new_creds.keys() == {
         "url",
         "hostname",
@@ -11,5 +11,5 @@ def test_get_oasis_credentials() -> None:
         "username",
         "password",
     }
-    cached_creds = get_oasis_credentials()
+    cached_creds = get_temp_credentials()
     assert cached_creds == new_creds

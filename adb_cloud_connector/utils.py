@@ -11,7 +11,7 @@ Json = Dict[str, Any]
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
 
-def get_oasis_credentials() -> Json:
+def get_temp_credentials() -> Json:
     creds_file = f"{dir_path}/data/creds.json"
 
     try:
@@ -37,7 +37,7 @@ def get_oasis_credentials() -> Json:
             json.dump(data, outfile)
             outfile.close()
 
-        time.sleep(5)  # Give Oasis Instance enough time to provision
+        time.sleep(5)  # Give instance enough time to provision
 
         print("Succcess: new credentials acquired")
         return data
