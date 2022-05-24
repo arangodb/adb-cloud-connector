@@ -1,4 +1,4 @@
-# ArangoDB Cloud
+# ArangoDB Cloud Connector
 
 [![build](https://github.com/arangodb/adb_cloud_connector/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/arangodb/adb_cloud_connector/actions/workflows/build.yml)
 [![CodeQL](https://github.com/arangodb/adb_cloud_connector/actions/workflows/analyze.yml/badge.svg?branch=master)](https://github.com/arangodb/adb_cloud_connector/actions/workflows/analyze.yml)
@@ -12,7 +12,7 @@
 [![Code style: black](https://img.shields.io/static/v1?style=for-the-badge&label=code%20style&message=black&color=black)](https://github.com/psf/black)
 [![Downloads](https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=282661&label=Downloads&query=total_downloads&url=https://api.pepy.tech/api/projects/adb_cloud_connector)](https://pepy.tech/project/adb_cloud_connector)
 
-The ArangoDB Cloud Connector provides access to temporary ArangoDB Cloud instance provisioning, for graph and beyond. 
+Provides access to temporary ArangoDB Cloud instance provisioning, for graph and beyond. 
 
 ## Installation
 
