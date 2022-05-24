@@ -12,6 +12,8 @@
 [![Code style: black](https://img.shields.io/static/v1?style=for-the-badge&label=code%20style&message=black&color=black)](https://github.com/psf/black)
 [![Downloads](https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=282661&label=Downloads&query=total_downloads&url=https://api.pepy.tech/api/projects/adb_cloud_connector)](https://pepy.tech/project/adb_cloud_connector)
 
+<a href="https://cloud.arangodb.com/" rel="cloud.arangodb.com"><img width=15% src="https://www.arangodb.com/wp-content/uploads/2019/10/ArangoDB-Oasis-Logo.png"/></a>
+
 Provides access to temporary ArangoDB Cloud instance provisioning, for graph and beyond. 
 
 ## Installation
