@@ -29,7 +29,7 @@ setup(
             "mypy>=0.790",
             "pytest>=6.0.0",
             "pytest-cov>=2.0.0",
-            "coveralls>=3.3.1",
+            # "coveralls>=3.3.1",
             "types-setuptools",
             "types-requests",
         ],

@@ -2,8 +2,8 @@
 
 [![build](https://github.com/arangodb/adb_cloud_connector/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/arangodb/adb_cloud_connector/actions/workflows/build.yml)
 [![CodeQL](https://github.com/arangodb/adb_cloud_connector/actions/workflows/analyze.yml/badge.svg?branch=master)](https://github.com/arangodb/adb_cloud_connector/actions/workflows/analyze.yml)
-[![Coverage Status](https://coveralls.io/repos/github/arangodb/adb_cloud_connector/badge.svg?branch=master)](https://coveralls.io/github/arangodb/adb_cloud_connector)
 [![Last commit](https://img.shields.io/github/last-commit/arangodb/adb_cloud_connector)](https://github.com/arangodb/adb_cloud_connector/commits/master)
+<!-- [![Coverage Status](https://coveralls.io/repos/github/arangodb/adb_cloud_connector/badge.svg?branch=master)](https://coveralls.io/github/arangodb/adb_cloud_connector) -->
 
 [![PyPI version badge](https://img.shields.io/pypi/v/adb_cloud_connector?color=3775A9&style=for-the-badge&logo=pypi&logoColor=FFD43B)](https://pypi.org/project/adb_cloud_connector/)
 [![Python versions badge](https://img.shields.io/pypi/pyversions/adb_cloud_connector?color=3776AB&style=for-the-badge&logo=python&logoColor=FFD43B)](https://pypi.org/project/adb_cloud_connector/)
