@@ -37,7 +37,7 @@ def get_temp_credentials() -> Json:
             json.dump(data, outfile)
             outfile.close()
 
-        time.sleep(5)  # Give instance enough time to provision
+        time.sleep(10)  # Give instance enough time to provision
 
         print("Succcess: new credentials acquired")
         return data
