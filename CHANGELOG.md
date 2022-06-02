@@ -1,3 +1,14 @@
+## 1.0.1 (2022-06-02)
+
+### Changes
+
+* Increase downtime for provisioning. [aMahanna]
+
+### Other
+
+* Update README.md. [aMahanna]
+
+
 ## 1.0.0 (2022-05-24)
 
 ### Fix
