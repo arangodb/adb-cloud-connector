@@ -1,3 +1,30 @@
+## 1.0.2 (2022-07-22)
+
+### Fix
+
+* Mypy. [aMahanna]
+
+* Black is being silly. [aMahanna]
+
+### Other
+
+* Merge pull request #3 from arangodb/parameters_update. [Chris Woodward]
+
+  Parameters update
+
+* Removes unneeded method call. [Chris Woodward]
+
+* Fixes formatting. [Chris Woodward]
+
+* Updates test case. [Chris Woodward]
+
+* Adds Optional for tutorialName and cred provider. [Chris Woodward]
+
+* Changelog: release 1.0.1 (#2) [github-actions[bot]]
+
+  !gitchangelog
+
+
 ## 1.0.1 (2022-06-02)
 
 ### Changes
