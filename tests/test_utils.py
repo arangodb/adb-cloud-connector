@@ -14,6 +14,3 @@ def test_get_temp_credentials() -> None:
     }
     cached_creds = get_temp_credentials()
     assert cached_creds == new_creds
-
-
-test_get_temp_credentials()
