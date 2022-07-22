@@ -12,9 +12,11 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 
 
 def get_temp_credentials(
-    tutorialName: Optional[str] = None, 
-    credentialProvider: Optional[str] = "https://tutorials.arangodb.cloud:8529/_db/_system/tutorialDB/tutorialDB"
-    ) -> Json:
+    tutorialName: Optional[str] = None,
+    credentialProvider: Optional[
+        str
+    ] = "https://tutorials.arangodb.cloud:8529/_db/_system/tutorialDB/tutorialDB",
+) -> Json:
     creds_file = f"{dir_path}/data/creds.json"
 
     try:
