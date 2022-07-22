@@ -2,7 +2,7 @@ import json
 import os
 import time
 from json.decoder import JSONDecodeError
-from typing import Any, Dict
+from typing import Any, Dict, Optional
 
 import requests
 from requests.exceptions import HTTPError
@@ -11,7 +11,10 @@ Json = Dict[str, Any]
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
 
-def get_temp_credentials() -> Json:
+def get_temp_credentials(
+    tutorialName: Optional[str] = None, 
+    credentialProvider: Optional[str] = "https://tutorials.arangodb.cloud:8529/_db/_system/tutorialDB/tutorialDB"
+    ) -> Json:
     creds_file = f"{dir_path}/data/creds.json"
 
     try:
@@ -26,8 +29,9 @@ def get_temp_credentials() -> Json:
 
     except (JSONDecodeError, HTTPError):
         print("Log: requesting new credentials...")
-        url = "https://tutorials.arangodb.cloud:8529/_db/_system/tutorialDB/tutorialDB"
-        response = requests.post(url, data=json.dumps({}))
+        url = credentialProvider
+        body = {"tutorialName": tutorialName} if tutorialName else "{}"
+        response = requests.post(url, data=json.dumps(body))
         response.raise_for_status()
 
         data: Json = response.json()
