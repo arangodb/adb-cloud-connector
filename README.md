@@ -37,6 +37,17 @@ con = get_temp_credentials()
 print(con)
 ```
 
+Assuming you have [python-arango]([url](https://github.com/arangodb/python-arango)) installed, you can then do the following:
+
+```py
+# pip install python-arango
+from arango import ArangoClient
+
+db = ArangoClient(hosts=credentials["url"]).db(
+    credentials["dbName"], credentials["username"], credentials["password"], verify=True
+)
+```
+
 ##  Development & Testing
 
 1. `git clone https://github.com/arangodb/adb_cloud_connector.git`
